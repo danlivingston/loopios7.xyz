@@ -66,8 +66,13 @@ footer{
     color: var(--color);
 }
 
+#userNameIcon{
+  -webkit-text-stroke: 1px var(--background);
+}
+
 #links{
     max-width: 90%;
+    min-width: 20%;
     width: auto;
     display: block;
     margin: 27px auto;
